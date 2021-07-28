@@ -1,0 +1,42 @@
+{
+    "0": {
+        "name": "IDN",
+        "type": "object",
+        "description": "basically a \"hey, i'm alive!\""
+    },
+    "1": {
+        "name": "HRB",
+        "type": "object",
+        "description": "used to keep the connection alive"
+    },
+    "2": {
+        "name": "CMD",
+        "type": "object",
+        "description": "used to send messages to the client"
+    },
+    "3": {
+        "name": "ACK",
+        "type": "object",
+        "description": "used to acknowledge message recieved to the server"
+    },
+    "4": {
+        "name": "REX",
+        "type": "object",
+        "description": "Executes command [data] on turtle [id]"
+    },
+    "5": {
+        "name": "ERR",
+        "type": "object",
+        "description": "An error occurred"
+    },
+    "6": {
+        "name": "CMD",
+        "type": "object",
+        "description": "Push a command directly to the turtle"
+    },
+    "7": {
+        "name": "ENQ",
+        "type": "object",
+        "description": "States that a command(s) was enqueued."
+    }
+}

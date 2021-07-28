@@ -1,0 +1,1 @@
+local moveLeft, moveRight, moveForward, moveBackward, moveUp, moveDown, turnLeft, turnRight = require "../mod/move.lua"

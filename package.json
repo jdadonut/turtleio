@@ -1,0 +1,17 @@
+{
+  "name": "minecraft-computer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "app": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express-ws": "^5.0.2",
+    "express.js": "^1.0.0",
+    "memfs": "^3.2.2",
+    "node-uuid": "^1.4.8"
+  }
+}
